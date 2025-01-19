@@ -1,5 +1,6 @@
-import { describe, it, expect } from "vitest";
+/* eslint-disable no-undef */
 import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import Table from "../components/table";
 
 describe("Table Component", () => {
